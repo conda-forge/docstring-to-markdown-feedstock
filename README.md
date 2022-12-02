@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docstring-to-ma
 
 Summary: On the fly conversion of Python docstrings to markdown
 
-Development: https://github.com/krassowski/docstring-to-markdown
+Development: https://github.com/python-lsp/docstring-to-markdown
 
 Current build status
 ====================
