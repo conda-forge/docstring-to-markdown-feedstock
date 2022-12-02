@@ -1,13 +1,12 @@
-{% set name = "docstring-to-markdown" %}
-{% set version = "0.10" %}
+{% set version = "0.11" %}
 
 package:
-  name: {{ name }}
+  name: docstring-to-markdown
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 12f75b0c7b7572defea2d9e24b57ef7ac38c3e26e91c0e5547cfc02b1c168bf6
+  url: https://pypi.io/packages/source/d/docstring-to-markdown/docstring-to-markdown-{{ version }}.tar.gz
+  sha256: 5b1da2c89d9d0d09b955dec0ee111284ceadd302a938a03ed93f66e09134f9b5
 
 build:
   number: 0
@@ -34,7 +33,7 @@ about:
   summary: On the fly conversion of Python docstrings to markdown
   license: LGPL-2.1-or-later
   license_file: LICENSE
-  dev_url: https://github.com/krassowski/docstring-to-markdown
+  dev_url: https://github.com/python-lsp/docstring-to-markdown
 
 extra:
   recipe-maintainers:
