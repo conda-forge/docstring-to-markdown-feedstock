@@ -1,4 +1,4 @@
-{% set version = "0.11" %}
+{% set version = "0.12" %}
 
 package:
   name: docstring-to-markdown
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/docstring-to-markdown/docstring-to-markdown-{{ version }}.tar.gz
-  sha256: 5b1da2c89d9d0d09b955dec0ee111284ceadd302a938a03ed93f66e09134f9b5
+  sha256: 40004224b412bd6f64c0f3b85bb357a41341afd66c4b4896709efa56827fb2bb
 
 build:
   number: 0
@@ -21,12 +21,16 @@ requirements:
     - python >=3.6
 
 test:
+  source_files:
+    - tests
   imports:
     - docstring_to_markdown
   commands:
     - pip check
+    - pytest -vv --cov=docstring_to_markdown --cov-branch --cov-report=term-missing:skip-covered --no-cov-on-fail --cov-fail-under=97
   requires:
     - pip
+    - pytest-cov
 
 about:
   home: https://pypi.org/project/docstring-to-markdown
