@@ -1,11 +1,11 @@
-About docstring-to-markdown
-===========================
+About docstring-to-markdown-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docstring-to-markdown-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/docstring-to-markdown
 
 Package license: LGPL-2.1-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docstring-to-markdown-feedstock/blob/main/LICENSE.txt)
 
 Summary: On the fly conversion of Python docstrings to markdown
 
