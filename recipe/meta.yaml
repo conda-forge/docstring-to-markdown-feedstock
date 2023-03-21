@@ -27,7 +27,7 @@ test:
     - docstring_to_markdown
   commands:
     - pip check
-    - pytest -vv --cov=docstring_to_markdown --cov=branch --cov-report=term-missing:skip-covered --no-cov-on-fail --cov-fail-under=98
+    - pytest -vv --cov=docstring_to_markdown --cov-branch --cov-report=term-missing:skip-covered --no-cov-on-fail --cov-fail-under=98
   requires:
     - pip
     - pytest-cov
