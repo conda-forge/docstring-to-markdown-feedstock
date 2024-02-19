@@ -1,4 +1,4 @@
-{% set version = "0.13" %}
+{% set version = "0.14" %}
 
 package:
   name: docstring-to-markdown
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/docstring-to-markdown/docstring-to-markdown-{{ version }}.tar.gz
-  sha256: 3025c428638ececae920d6d26054546a20335af3504a145327e657e7ad7ce1ce
+  sha256: f9b061b42ee848149e122a647013b4f0778141596230f3203fe7f5404b3e9ab2
 
 build:
   number: 0
